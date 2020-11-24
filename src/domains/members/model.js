@@ -18,6 +18,10 @@ const memberSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+      package: {
+      type: String,
+      required: true,
+    },
     // payment: { type: String, required: true },
     // payment: [
     //   {
