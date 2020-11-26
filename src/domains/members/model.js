@@ -6,6 +6,10 @@ const memberSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    email: {
+      type: String,
+      required: true,
+    },
     age: {
       type: Number,
       required: true,
@@ -18,7 +22,15 @@ const memberSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-      package: {
+    package: {
+      type: String,
+      required: true,
+    },
+    startWeight: {
+      type: Number,
+      required: true,
+    },
+    profile: {
       type: String,
       required: true,
     },
@@ -30,13 +42,13 @@ const memberSchema = new mongoose.Schema(
     //     required: true,
     //   },
     // ],
-    images: [
-      {
-        type: mongoose.SchemaTypes.ObjectId,
-        ref: "Images",
-        required: false,
-      },
-    ],
+    // images: [
+    //   {
+    //     type: mongoose.SchemaTypes.ObjectId,
+    //     ref: "Images",
+    //     required: false,
+    //   },
+    // ],
   },
   {
     timestamps: true,

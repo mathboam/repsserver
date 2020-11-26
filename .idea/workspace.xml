@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c27567d-6bff-460d-8c93-7e312cfef85a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/domains/members/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/domains/members/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domains/members/typeDefs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/domains/members/typeDefs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +22,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -30,11 +36,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606239569936</updated>
-      <workItem from="1606239571266" duration="477000" />
+      <workItem from="1606239571266" duration="2847000" />
+      <workItem from="1606264571485" duration="1584000" />
+      <workItem from="1606384853095" duration="508000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1651" y="23" key="SettingsEditor" timestamp="1606324425379">
+      <screen x="1440" y="0" width="1360" height="768" />
+    </state>
+    <state x="1651" y="23" key="SettingsEditor/1440.0.1360.768/0.0.1440.900@1440.0.1360.768" timestamp="1606324425379" />
   </component>
 </project>

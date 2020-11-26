@@ -9,22 +9,25 @@ module.exports = gql`
   type Member {
     _id: ID
     name: String
+    email:String
     age: Int
     dietRelatedIllness: String
     package: Package
-    images: [Image]
     startWeight: Int
     contact: String
+    profile: String
     createdAt: Date
     updatedAt: Date
   }
   input addMemberInput {
     name: String
     age: Int
+    email: String
     dietRelatedIllness: String
     package: Package
     startWeight: Int
     contact: String
+    profile: String
   }
   input fetchMemberInput {
     memberId: ID
@@ -32,9 +35,9 @@ module.exports = gql`
   input fetchMembersInput {
     name: String
     age: Int
+    email:String
     dietRelatedIllness: String
     package: String
-    images: [String]
     contact: String
   }
 
