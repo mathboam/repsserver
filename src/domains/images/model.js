@@ -15,6 +15,10 @@ const imageSchema = new mongoose.Schema(
       ref: "Member",
       required: true,
     },
+      dateOfUpload:{
+        type:"String",
+          require:true
+      }
   },
   {
     timestamps: true,

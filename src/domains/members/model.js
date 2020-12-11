@@ -14,6 +14,10 @@ const memberSchema = new mongoose.Schema(
       type: Number,
       required: true,
     },
+    password: {
+      type: String,
+      required: true,
+    },
     dietRelatedIllness: {
       type: String,
       required: false,
@@ -42,13 +46,16 @@ const memberSchema = new mongoose.Schema(
     //     required: true,
     //   },
     // ],
-    // images: [
-    //   {
-    //     type: mongoose.SchemaTypes.ObjectId,
-    //     ref: "Images",
-    //     required: false,
-    //   },
-    // ],
+    group: {
+      type: mongoose.SchemaTypes.ObjectId,
+    },
+    images: [
+      {
+        type: mongoose.SchemaTypes.ObjectId,
+        ref: "Images",
+        required: false,
+      },
+    ],
   },
   {
     timestamps: true,

@@ -1,4 +1,10 @@
-const { getMember, getMembers, createMember } = require("./actions");
+const {
+  getMember,
+  getMembers,
+  createMember,
+  deleteMember,
+  updateMember,
+} = require("./actions");
 module.exports = {
   Query: {
     fetchMember: async function (_, args) {
@@ -25,6 +31,22 @@ module.exports = {
         return results;
       } catch (error) {
         return error;
+      }
+    },
+    deleteMember: async (_, args) => {
+      try {
+        const results = await deleteMember(args);
+        return results;
+      } catch (err) {
+        return err;
+      }
+    },
+    updateMember: async (_, args) => {
+      try {
+        const results = await updateMember(args);
+        return results;
+      } catch (e) {
+        return e;
       }
     },
   },

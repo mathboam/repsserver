@@ -2,9 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c27567d-6bff-460d-8c93-7e312cfef85a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/domains/groups/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/groups/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/groups/model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/groups/resolvers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domains/groups/typeDefs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.yarn-integrity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/is-fullwidth-code-point/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/is-fullwidth-code-point/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/is-fullwidth-code-point/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/is-fullwidth-code-point/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-regex/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-regex/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-regex/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-regex/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/make-dir/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/make-dir/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/node_modules/semver/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/node_modules/semver/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/node_modules/semver/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/node_modules/semver/bin/semver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/node_modules/semver/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/node_modules/semver/range.bnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/node_modules/semver/semver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nopt/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nopt/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nopt/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nopt/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nopt/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nopt/bin/nopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nopt/bin/nopt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nopt/examples/my-program.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nopt/lib/nopt.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nopt/lib/nopt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nopt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nopt/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/package-json/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/package-json/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/require_optional/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/require_optional/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/require_optional/node_modules/semver/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/require_optional/node_modules/semver/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/require_optional/node_modules/semver/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/require_optional/node_modules/semver/bin/semver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/require_optional/node_modules/semver/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/require_optional/node_modules/semver/range.bnf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/require_optional/node_modules/semver/semver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver-diff/node_modules/.bin/semver" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver-diff/node_modules/.bin/semver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/bin/semver.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/semver.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/semver/semver.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-ansi/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-ansi/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-ansi/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/strip-ansi/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/touch/node_modules/.bin/nopt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/touch/node_modules/.bin/nopt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domains/images/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/domains/images/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domains/images/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/domains/images/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domains/images/typeDefs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/domains/images/typeDefs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domains/members/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/domains/members/actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/domains/members/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/domains/members/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domains/members/resolvers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/domains/members/resolvers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/domains/members/typeDefs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/domains/members/typeDefs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +87,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/domains" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="run.prettier.on.save" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/domains" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -39,16 +111,46 @@
       <workItem from="1606239571266" duration="2847000" />
       <workItem from="1606264571485" duration="1584000" />
       <workItem from="1606384853095" duration="508000" />
+      <workItem from="1606401617859" duration="1554000" />
+      <workItem from="1606652625006" duration="1726000" />
+      <workItem from="1606660202322" duration="293000" />
+      <workItem from="1606662202811" duration="1068000" />
+      <workItem from="1606860003268" duration="617000" />
+      <workItem from="1606924967135" duration="3042000" />
+      <workItem from="1606983427242" duration="2719000" />
+      <workItem from="1607076199307" duration="2039000" />
+      <workItem from="1607188869333" duration="3301000" />
+      <workItem from="1607361442416" duration="1325000" />
+      <workItem from="1607563334539" duration="6263000" />
+      <workItem from="1607599326337" duration="10715000" />
+      <workItem from="1607630536699" duration="157000" />
+      <workItem from="1607712896244" duration="300000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="1651" y="23" key="SettingsEditor" timestamp="1606324425379">
       <screen x="1440" y="0" width="1360" height="768" />
     </state>
     <state x="1651" y="23" key="SettingsEditor/1440.0.1360.768/0.0.1440.900@1440.0.1360.768" timestamp="1606324425379" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1606925002008">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606925002008" />
   </component>
 </project>

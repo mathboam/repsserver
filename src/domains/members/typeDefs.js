@@ -9,12 +9,16 @@ module.exports = gql`
   type Member {
     _id: ID
     name: String
-    email:String
+    email: String
     age: Int
     dietRelatedIllness: String
     package: Package
     startWeight: Int
     contact: String
+    steps: Int
+    group: ID
+    password: String
+    images: [Image]
     profile: String
     createdAt: Date
     updatedAt: Date
@@ -22,6 +26,7 @@ module.exports = gql`
   input addMemberInput {
     name: String
     age: Int
+    password: String
     email: String
     dietRelatedIllness: String
     package: Package
@@ -34,15 +39,34 @@ module.exports = gql`
   }
   input fetchMembersInput {
     name: String
+    password: String
     age: Int
-    email:String
+    email: String
     dietRelatedIllness: String
     package: String
     contact: String
   }
 
   type addMemberPayload {
-    member: Member!
+    member: Member
+    msg: String
+  }
+
+  input deleteMemberInput {
+    memberId: ID
+  }
+
+  input updateMemberInput {
+    name: String
+    email: String
+    age: Int
+    dietRelatedIllness: String
+    package: Package
+    group: ID
+    startWeight: Int
+    contact: String
+    steps: Int
+    profile: String
   }
 
   extend type Query {
@@ -51,5 +75,7 @@ module.exports = gql`
   }
   extend type Mutation {
     addMember(input: addMemberInput): addMemberPayload
+    deleteMember(input: deleteMemberInput): Member
+    updateMember(input: updateMemberInput): Member
   }
 `;

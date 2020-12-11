@@ -10,6 +10,7 @@ module.exports = gql`
     url: String
     category: Category
     member: Member
+    dateOfUpload:Date
     createdAt: Date
     updatedAt: Date
   }
@@ -19,13 +20,16 @@ module.exports = gql`
   }
 
   input fetchImagesInput {
-    url: String
-    category: String
-    member: String
+    url:String
+    category:String
+    dateOfUpload:Date
+    createdAt:Date
+    member:String
   }
 
   input addImageInput {
     url: String
+    dateOfUpload:Date
     category: Category
     member: ID
   }

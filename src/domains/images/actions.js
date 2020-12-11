@@ -6,7 +6,7 @@ async function getImage({ ImageId }) {
     .findOne({
       _id: ImageId,
     })
-    .populate("members");
+    .populate("member");
   return doc;
 }
 

@@ -4,6 +4,7 @@ const { ApolloServer, gql } = require("apollo-server-express");
 const payment = require("./domains/payments/");
 const images = require("./domains/images/");
 const member = require("./domains/members");
+const group = require("./domains/groups");
 
 let root = "Reps";
 
@@ -42,12 +43,19 @@ const rootResolver = {
 
 function GraphQlServer() {
   return new ApolloServer({
-    typeDefs: [rootTypeDef, payment.typeDefs, member.typeDefs, images.typeDefs],
+    typeDefs: [
+      rootTypeDef,
+      payment.typeDefs,
+      member.typeDefs,
+      images.typeDefs,
+      group.typeDefs,
+    ],
     resolvers: [
       rootResolver,
       payment.resolvers,
       member.resolvers,
       images.resolvers,
+      group.resolvers,
     ],
     introspection: true,
     playground: true,
