@@ -83,7 +83,7 @@ async function loginMember({ input }) {
       };
       return response;
     } else {
-      const checker = await bcrypt.compare(password, member?.password);
+      const checker = await bcrypt.compare(password, member.password);
       if (checker) {
         //  generating  token
         const serializer = { ...member };
