@@ -69,6 +69,16 @@ module.exports = gql`
     profile: String
   }
 
+  type loginPayload {
+    token: String
+    msg: String
+  }
+
+  input loginMemberInput {
+    email: String
+    password: String
+  }
+
   extend type Query {
     fetchMember(memberId: ID): Member
     fetchMembers(filter: fetchMembersInput = {}): [Member]
@@ -77,5 +87,6 @@ module.exports = gql`
     addMember(input: addMemberInput): addMemberPayload
     deleteMember(input: deleteMemberInput): Member
     updateMember(input: updateMemberInput): Member
+    loginMember(input: loginMemberInput): loginPayload
   }
 `;

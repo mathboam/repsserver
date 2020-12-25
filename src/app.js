@@ -1,5 +1,5 @@
 const { ApolloServer, gql } = require("apollo-server-express");
-
+const { AuthenticateToken } = require("./domains/helpers/index");
 // Schemas and their resolvers
 const payment = require("./domains/payments/");
 const images = require("./domains/images/");
@@ -57,6 +57,9 @@ function GraphQlServer() {
       images.resolvers,
       group.resolvers,
     ],
+    context: ({ req }) => {
+      return { token: req.headers.authorization };
+    },
     introspection: true,
     playground: true,
     tracing: true,

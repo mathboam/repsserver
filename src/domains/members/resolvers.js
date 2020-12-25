@@ -4,6 +4,7 @@ const {
   createMember,
   deleteMember,
   updateMember,
+  loginMember,
 } = require("./actions");
 module.exports = {
   Query: {
@@ -25,8 +26,9 @@ module.exports = {
     },
   },
   Mutation: {
-    addMember: async (_, args) => {
+    addMember: async (_, args, context) => {
       try {
+        console.log();
         const results = await createMember(args);
         return results;
       } catch (error) {
@@ -44,6 +46,14 @@ module.exports = {
     updateMember: async (_, args) => {
       try {
         const results = await updateMember(args);
+        return results;
+      } catch (e) {
+        return e;
+      }
+    },
+    loginMember: async (_, args) => {
+      try {
+        const results = await loginMember(args);
         return results;
       } catch (e) {
         return e;

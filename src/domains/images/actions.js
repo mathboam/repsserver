@@ -1,5 +1,6 @@
 const { imageModel } = require("./model");
 const { memberModel } = require("../members/model");
+const { AuthenticateToken } = require("../helpers/");
 
 async function getImage({ ImageId }) {
   const doc = await imageModel
@@ -24,8 +25,9 @@ async function getImages({
   return docs;
 }
 
-async function createImage({ input }) {
+async function createImage({ input }, context) {
   try {
+    const data = AuthenticateToken(context);
     const newImage = new imageModel({
       ...input,
     });

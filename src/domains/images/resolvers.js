@@ -19,9 +19,9 @@ module.exports = {
     },
   },
   Mutation: {
-    addImage: async (_, args) => {
+    addImage: async (_, args, context) => {
       try {
-        const results = await createImage(args);
+        const results = await createImage(args, context);
         return results;
       } catch (error) {
         return error;

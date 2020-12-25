@@ -1,15 +1,14 @@
 const { memberModel } = require("./model");
 const { imageModel } = require("../images/model");
 const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
 
 async function getMember({ memberId }) {
-  console.log(memberId);
   const doc = await memberModel
     .findOne({
       _id: memberId,
     })
     .populate("images");
-  console.log(doc);
   return doc;
 }
 
@@ -72,10 +71,44 @@ async function updateMember({ input }) {
   }
 }
 
+async function loginMember({ input }) {
+  const { email, password } = input;
+  try {
+    //  authentication
+    const member = await memberModel.findOne({ email: email });
+    if (!member) {
+      const response = {
+        token: null,
+        msg: "The email provided doesn't seem to be registered",
+      };
+      return response;
+    } else {
+      const checker = await bcrypt.compare(password, member?.password);
+      if (checker) {
+        //  generating  token
+        const serializer = { ...member };
+        const accessToken = jwt.sign(
+          serializer,
+          process.env.ACCESS_TOKEN_SECRET
+        );
+
+        const response = { token: accessToken, msg: null };
+        return response;
+      } else {
+        const response = { token: null, msg: "password provided is incorrect" };
+        return response;
+      }
+    }
+  } catch (e) {
+    return e;
+  }
+}
+
 module.exports = {
   getMember,
   getMembers,
   createMember,
   deleteMember,
   updateMember,
+  loginMember,
 };
