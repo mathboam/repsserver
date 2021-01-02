@@ -72,6 +72,7 @@ module.exports = gql`
   type loginPayload {
     token: String
     msg: String
+    user: Member
   }
 
   input loginMemberInput {

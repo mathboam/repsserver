@@ -92,7 +92,7 @@ async function loginMember({ input }) {
           process.env.ACCESS_TOKEN_SECRET
         );
 
-        const response = { token: accessToken, msg: null };
+        const response = { token: accessToken, msg: null, user: member };
         return response;
       } else {
         const response = { token: null, msg: "password provided is incorrect" };
